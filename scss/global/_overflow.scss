@@ -1,0 +1,150 @@
+.o-auto {
+    overflow: auto;
+}
+.o-hidden {
+    overflow: hidden;
+}
+.o-scroll {
+    overflow: scroll;
+}
+.o-x-scroll {
+    overflow-x: scroll;
+}
+.o-y-scroll {
+    overflow-y: scroll;
+}
+// desktop-large
+    .g-o-auto {
+        @include desktop-large {
+            overflow: auto;
+        }
+    }
+    .lg-o-hidden {
+        @include desktop-large {
+            overflow: hidden;
+        }
+    }
+    .lg-o-scroll {
+        @include desktop-large {
+            overflow: scroll;
+        }
+    }
+    .lg-o-x-scroll {
+        @include desktop-large {
+            overflow-x: scroll;
+        }
+    }
+    .lg-o-y-scroll {
+        @include desktop-large {
+            overflow-y: scroll;
+        }
+    }
+// desktop-small 
+    .ds-sm-o-auto {
+        @include desktop-small {
+            overflow: auto;
+        }
+    }
+    .ds-sm-o-hidden {
+        @include desktop-small {
+            overflow: hidden;
+        }
+    }
+    .ds-sm-o-scroll {
+        @include desktop-small {
+            overflow: scroll;
+        }
+    }
+    .ds-sm-o-x-scroll {
+        @include desktop-small {
+            overflow-x: scroll;
+        }
+    }
+    .ds-sm-o-y-scroll {
+        @include desktop-small {
+            overflow-y: scroll;
+        }
+    }
+// tablet-large
+    .t-lg-o-auto {
+        @include tablet-large {
+            overflow: auto;
+        }
+    }
+    .t-lg-o-hidden {
+        @include tablet-large {
+            overflow: hidden;
+        }
+    }
+    .t-lg-o-scroll {
+        @include tablet-large {
+            overflow: scroll;
+        }
+    }
+    .t-lg-o-x-scroll {
+        @include tablet-large {
+            overflow-x: scroll;
+        }
+    }
+    .t-lg-o-y-scroll {
+        @include tablet-large {
+            overflow-y: scroll;
+        }
+    }
+// tablet-medium
+    .md-o-auto {
+        @include tablet-medium {
+            overflow: auto;
+        }
+    }
+    .md-o-hidden {
+        @include tablet-medium {
+            overflow: hidden;
+        }
+    }
+    .md-o-scroll {
+        @include tablet-medium {
+            overflow: scroll;
+        }
+    }
+    .md-o-x-scroll {
+        @include tablet-medium {
+            overflow-x: scroll;
+        }
+    }
+    .md-o-y-scroll {
+        @include tablet-medium {
+            overflow-y: scroll;
+        }
+    }
+// tablet-small
+    .sm-o-auto {
+        @include tablet-small {
+            overflow: auto;
+        }
+    }
+    .sm-o-hidden {
+        @include tablet-small {
+            overflow: hidden;
+        }
+    }
+    .sm-o-scroll {
+        @include tablet-small {
+            overflow: scroll;
+        }
+    }
+    .sm-o-x-scroll {
+        @include tablet-small {
+            overflow-x: scroll;
+        }
+    }
+    .sm-o-y-scroll {
+        @include tablet-small {
+            overflow-y: scroll;
+        }
+    }
+    .sm-o-y-clip {
+        @include tablet-small {
+            overflow-y: clip;
+        }
+    }

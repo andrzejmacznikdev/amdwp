@@ -1,0 +1,141 @@
+.hero-one {
+    // height: 785px;
+
+    padding-bottom: 95px;
+    padding-top: 95px;
+    overflow: hidden;
+    @include desktop-xlarge {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    @include desktop-large {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @include desktop {
+        padding: 70px 0;
+    }
+    @include desktop-small {
+        padding: 50px 0;
+    }
+    @include tablet-large {
+        padding: 35px 0;
+    }
+    @include tablet-small {
+        padding: 10px 0 35px 0;
+    }
+    &-vector-desktop {
+        @include p-abs;
+        top: 0;
+        left:0;
+        width: auto;
+        @include desktop-small {
+            width: 50%;
+        }
+    }
+
+    &-slider {
+        &-left {
+            padding-top: 80px;
+            width: 50%;
+            @include desktop-xlarge {
+                padding-top: 70px;
+            }
+            @include desktop-large {
+                padding-top: 65px;
+            }
+            @include desktop {
+                padding-top: 55px;
+            }
+            @include desktop-small {
+                padding-top: 40px;
+            }
+            @include tablet-large {
+                padding-top: 35px;
+            }
+            @include tablet-medium {
+                width: 100%;
+            }
+            @include tablet-small {
+                padding-top: 15px;
+            }
+            .main-header {
+                max-width: 545px;
+                @include desktop-xlarge {
+                    max-width: 498px;
+                }
+                @include desktop-large {
+                    max-width: 464px;
+                }
+                @include desktop-small {
+                    max-width: 430px;
+                }
+                @include tablet-large {
+                    max-width: 365px;
+                }
+                @include tablet-medium {
+                    max-width: 370px;
+                }
+                @include tablet-small {
+                    // max-width: 340px;
+                    max-width: 100%;
+                }
+            }
+            .description {
+                max-width: 425px;
+                @include desktop-large {
+                    max-width: 375px;
+                }
+                @include desktop {
+                    max-width: 370px;
+                }
+                @include desktop-small {
+                    max-width: 320px;
+                }
+                @include tablet-medium {
+                    max-width: 100%;
+                }
+            }
+        }
+        &-right {
+            width: 41.67vw;    /* 800px when viewport width is 1920px */
+            height: 31.02vw;   /* 595px when viewport width is 1920px */
+            // @include desktop-xlarge {
+            //     height: 518px;
+            // }
+            // @include desktop-large {
+            //     height: 465px;
+            // }
+            // @include desktop {
+            //     height: 440px;
+            // }
+            // @include desktop-small {
+            //     height: 411px;
+            // }
+            @include tablet-medium {
+                width: 100%;
+            }
+            @include tablet-small {
+                height: 250px;
+            }
+        }
+    }
+    &-pagination {
+        bottom: -40px;
+        left:0;
+        width: max-content;
+        @include desktop-large {
+            bottom: -30px;
+        }
+        @include desktop {
+            bottom: -25px;
+        }
+        @include tablet-medium {
+            left: 25px;
+            bottom: -30px;
+        }
+        @include tablet-small {
+            left: 10px;
+        }
+    }
+}

@@ -1,0 +1,158 @@
+.site-header {
+    height: var(--header-size);
+    @include desktop-xlarge {
+        height: var(--header-xlg-size);
+    }
+    @include desktop-large {
+        height: var(--header-lg-size);
+    }
+    @include tablet-large {
+        height: var(--header-t-lg-size);
+    }
+    @include tablet-medium {
+        height: var(--header-md-size);
+    }
+    @include tablet-small {
+        height: var(--header-sm-size);
+    }
+    &-top {
+        height: 60px;
+        @include desktop-large {
+            height: 55px;
+        }
+        @include tablet-large {
+            height: 45px;
+        }
+        @include tablet-medium {
+            height: 40px;
+        }
+        @include tablet-small {
+            display:none;
+        }
+        &-content {
+            
+            a {
+                .text {
+                    @include tFast;
+                }
+                &:hover {
+                    .text {
+                        
+                    }
+                }
+            }
+
+        }
+    }
+    &-main {
+        height: 85px;
+        // backdrop-filter: blur(30px);
+        // --webkit-backdrop-filter: blur(30px);
+        @include desktop-large {
+            height: 75px;
+        }
+        @include tablet-large {
+            height: 65px;
+        }
+        @include tablet-medium {
+            height: 50px;
+        }
+        @include tablet-small {
+            height: 55px;
+        }
+        .logo-link {
+            &-img {
+                width: 233px;
+                @include desktop-large {
+                    width: 200px;
+                }
+                @include desktop-small {
+                    width: 175px;
+                }
+                @include tablet-small {
+                    width: 142px;
+                }
+            }
+        }
+    }
+}
+
+.languages {
+    @include p-abs;
+    top: 50%;   
+    // right: calc(((100% - 1620px) / 2) / 2);
+    transform: translateY(-50%);
+    cursor: pointer;
+    // @include desktop-xlarge {
+    //     right: calc((((100% - 90%) / 2) / 2) - 6px);
+    // }
+    // @include desktop-large {
+    //     right: calc((((100% - 90%) / 2) / 2) - 0px);
+    // }
+    // @include desktop-small {
+    //     right: calc((((100% - 90%) / 2) / 2) - 3px);
+    // }
+    @include tablet-large {
+        @include p-rel;
+        right: auto;
+        top:auto;
+        transform: unset;
+    }
+    .lang-active {
+        text-transform: uppercase;
+        color: var(--orange);
+        @include p-rel;
+        &:after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7' fill='none'%3E%3Cpath d='M1 0.75L5.5 5.25L10 0.75' stroke='%23FF8A00' stroke-width='2'/%3E%3C/svg%3E");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            width: 11px;
+            height: 7px;
+            right: -16px;
+            top: 8px;
+            content:'';
+            @include p-abs;
+            @include desktop-small {
+                top: 8px;
+            }
+            @include tablet-large {
+                top: 6px;
+            }
+        }
+    }
+    &-all {
+        @include p-abs;
+        top: calc(100% + 2px);
+        // right: calc(((100% - 1700px) / 2) / 2);
+        width: 60px;
+        background-color: var(--white);
+        // box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10);
+        padding: 20px;
+        flex-direction:column;
+        gap:5px;
+        display:none;
+        @include desktop-xlarge {
+            // right: calc((((100% - 90%) / 2) / 2) - 27px);
+        }
+        @include desktop-large {
+            // right: calc((((100% - 90%) / 2) / 2) - 6px);
+        }
+        &-item {
+            text-transform: uppercase;
+            @include tFast;
+            &:hover {
+                
+            }
+        }
+        @include tablet-large {
+            right:45px;
+            top: 50px;
+        }
+        @include tablet-small {
+            top: 45px;
+        }
+    }
+}
+.languages-all-active {
+    display:flex;
+}

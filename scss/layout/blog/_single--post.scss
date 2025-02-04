@@ -1,0 +1,130 @@
+.single--post {
+
+}
+.next-post {
+    width: max-content;
+    .post-link-box-next {
+       
+        @include h-Button;
+        @include p-rel;
+        @include tablet-small {
+            
+        }
+        &:before {
+            height: 100%;
+            width: 0;
+            @include p-abs;
+            top:0;
+            left:0;
+            @include tFast;
+            
+            content:'';
+            z-index: 1;
+        }
+        .text {
+            padding: 0 10px;
+            
+            z-index: 2;
+            @include tFast;
+        }
+        .icon {
+            width: 50px;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            @include h-Button;
+            z-index: 2;
+            @include tFast;
+            @include tablet-small {
+                
+            }
+        }
+        &:hover {
+            .text {
+                
+            }
+            .icon {
+               
+                svg {
+                    path {
+                        
+                    }
+                }
+            }
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+.previous-post {
+    width: max-content;
+    .post-link-box-prev {
+        
+        @include h-Button;
+        @include p-rel;
+        @include tablet-small {
+            
+        }
+        &:before {
+            height: 100%;
+            width: 0;
+            @include p-abs;
+            top:0;
+            right:0;
+            @include tFast;
+            
+            content:'';
+            z-index: 1;
+        }
+        .text {
+            padding: 0 10px;
+            
+            @include tFast;
+            z-index: 2;
+        }
+        .icon {
+            width: 50px;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            
+            @include h-Button;
+            @include tFast;
+            z-index: 2;
+            @include tablet-small {
+                
+            }
+        }
+        &:hover {
+            .text {
+               
+            }
+            .icon {
+
+                svg {
+                    path {
+                        
+                    }
+                }
+            }
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+    
+}
+
+.breadcrumb {
+    &-link {
+        width: max-content;
+    }
+    &-special {
+        white-space: nowrap;
+    }
+}

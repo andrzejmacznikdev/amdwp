@@ -1,0 +1,233 @@
+// TRANSITIONS
+    @mixin tVerySlow { transition: all 1s ease; }
+    @mixin tSlow { transition: all 0.8s ease; }
+    @mixin tNormal { transition: all 0.4s ease; }
+    @mixin tFast { transition: all 0.2s ease; }
+
+// RWD BREAKPOINTS
+    @mixin desktop-xlarge {
+        @media all and (max-width:1919.98px) {
+            @content;
+        }
+    }
+    @mixin desktop-large {
+        @media all and (max-width: 1599.98px) {
+            @content;
+        }
+    }
+    @mixin desktop {
+        @media all and (max-width:1439.98px) {
+            @content;
+        }
+    }
+    @mixin desktop-small {
+        @media all and (max-width:1365.98px) {
+            @content;
+        }
+    }
+    @mixin tablet-large {
+        @media all and (max-width:1199.98px){
+            @content;
+        }
+    }
+    @mixin tablet {
+        @media all and (max-width:1023.98px) {
+            @content;
+        }
+    }
+    @mixin tablet-medium {
+        @media all and (max-width:991.98px) {
+            @content;
+        }
+    }
+    @mixin tablet-small {
+        @media all and (max-width:767.98px) {
+            @content;
+        }
+    }
+    @mixin mobile {
+        @media all and (max-width: 575.98px) {
+            @content;
+        }
+    }
+
+// FLEX 
+    @mixin flex { display:flex; }
+    @mixin row { flex-direction:row; }
+    @mixin grid { display: grid; }
+    @mixin col { flex-direction: column;}
+
+// HEADERS 
+    @mixin reset-headers {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-block-start: 0;
+        margin-block-end:0;
+    }
+
+// GLOBAL VARIABLES
+    @mixin p-abs { position: absolute; }
+    @mixin p-rel { position: relative; }
+    @mixin p-fix { position: fixed; }
+    @mixin rounded-5 {
+        border-radius: 5px;
+    }
+    @mixin rounded-10 {
+        border-radius: 10px;
+    }
+    @mixin rounded-20 {
+        border-radius: 20px;
+    }
+    @mixin rounded-25 {
+        border-radius: 25px;
+    }
+    @mixin rounded-50 {
+        border-radius: 50px;
+    }
+    @mixin rounded-100 {
+        border-radius: 100px;
+        @include desktop-small {
+            border-radius: 75px;
+        }
+        @include tablet-small {
+            border-radius: 50px;
+        }
+    }
+    @mixin rounded-lg-10 {
+        @include desktop-large {
+            border-radius: 10px;
+        }
+    }
+    @mixin rounded-lg-25 {
+        @include desktop-large {
+            border-radius: 25px;
+        }
+    }
+    @mixin rounded-lg-50 {
+        @include desktop-large {
+            border-radius: 50px;
+        }
+    }
+    @mixin rounded-md-10 {
+        @include tablet-medium {
+            border-radius: 10px;
+        }
+    }
+    @mixin rounded-md-25 {
+        @include tablet-medium {
+            border-radius: 25px;
+        }
+    }
+    @mixin rounded-md-50 {
+        @include tablet-medium {
+            border-radius: 50px;
+        }
+    }
+    @mixin pad30 {
+        padding: 30px;
+        @include desktop-large {
+            padding: 25px;
+        }
+        @include desktop-small {
+            padding: 20px;
+        }
+        @include tablet-small {
+            padding: 10px;
+        }
+    }
+    @mixin h-Button {
+        height: 50px;
+        @include desktop-large {
+            height: 45px;
+        }
+        @include desktop-small {
+            height: 40px;
+        }
+        @include tablet-small {
+            height: 35px;
+        }
+    }
+    @mixin h-input {
+        height: 50px;
+        @include desktop-large {
+            height: 45px;
+        }
+        @include desktop-small {
+            height: 40px;
+        }
+    }
+
+// FONTS
+    @mixin bold {
+        font-family: var(--ff-600);
+    }
+    @mixin s1 {
+        font-size: clamp(12px, 0.72vw, 14px);
+        line-height: clamp(20px, 0.72vw, 22px);
+    }
+    @mixin t1 {
+        font-size: clamp(14px, 0.83vw, 16px);
+        line-height: clamp(22px, 0.83vw, 24px);
+    }
+    @mixin a1 {
+        font-size: clamp(16px, 1.041vw, 20px);
+        line-height: clamp(24px, 1.45vw, 28px);
+        p,a {
+            font-size: 1em;
+            line-height: clamp(24px, 1.45vw, 28px);
+        }
+    }
+    @mixin h1 {
+        font-size: clamp(35px, 3.125vw, 60px);
+        line-height: clamp(35px, 3.125vw, 60px);
+        h1, h2, h3, h4, h5, h6,p,a {
+            font-size: 1em;
+            line-height: clamp(35px, 3.125vw, 60px);
+        }
+    }
+
+    @mixin h2 {
+        font-size: clamp(27px, 2.343vw, 45px);
+        line-height: clamp(32px, 2.343vw, 45px);
+        h1, h2, h3, h4, h5, h6,p,a {
+            font-size: 1em;
+            line-height: clamp(32px, 2.343vw, 45px);
+        }
+    }
+    @mixin h3 {
+        font-size: clamp(22px, 1.97vw, 38px);
+        line-height: clamp(34px, 2.187vw, 42px);
+        h1, h2, h3, h4, h5, h6,p,a {
+            font-size: 1em;
+            line-height: clamp(32px, 2.343vw, 45px);
+        }
+    }
+    @mixin h4 {
+        font-size: clamp(20px, 1.666vw, 32px);
+        line-height: clamp(25px, 1.927vw, 37px);
+        h1, h2, h3, h4, h5, h6,p,a {
+            font-size: 1em;
+            line-height: clamp(25px, 1.927vw, 37px);
+        }
+    }
+    @mixin h5 {
+        font-size: clamp(19px, 1.51vw, 29px);
+        line-height: clamp(24px, 1.822vw, 35px);
+        h1, h2, h3, h4, h5, h6,p,a {
+            font-size: 1em;
+            line-height: clamp(24px, 1.822vw, 35px);
+        }
+    }
+
+    @mixin h6 {
+        font-size: clamp(18px, 1.302vw, 25px);
+        line-height: clamp(23px, 1.562vw, 30px);
+        h1, h2, h3, h4, h5, h6,p,a {
+            font-size: 1em;
+            line-height: clamp(23px, 1.562vw, 30px);
+        }
+    }
+
+    
+
+    

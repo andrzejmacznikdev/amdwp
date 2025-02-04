@@ -1,0 +1,81 @@
+// xlarge and global
+.rounded-10 {
+    @include rounded-10;
+}
+.rounded-20 {
+    @include rounded-20;
+}
+.rounded-25 {
+    @include rounded-25;
+}
+.rounded-50 {
+    @include rounded-50;
+}
+.rounded-100 {
+    @include rounded-100;
+}
+
+.rounded-t-l-10 {
+    border-top-left-radius: 10px;
+}
+.rounded-t-r-10 {
+    border-top-right-radius:10px;
+}
+.rounded-b-l-10 {
+    border-bottom-left-radius: 10px;
+}
+.rounded-b-r-10 {
+    border-bottom-right-radius:10px;
+}
+
+.rounded-t-l-25 {
+    border-top-left-radius: 25px;
+}
+.rounded-t-r-25 {
+    border-top-right-radius:25px;
+}
+.rounded-b-l-25 {
+    border-bottom-left-radius: 25px;
+}
+.rounded-b-r-25 {
+    border-bottom-right-radius:25px;
+}
+
+.rounded-t-l-50 {
+    border-top-left-radius: 50px;
+}
+.rounded-t-r-50 {
+    border-top-right-radius:50px;
+}
+.rounded-b-l-50 {
+    border-bottom-left-radius: 50px;
+}
+.rounded-b-r-50 {
+    border-bottom-right-radius:50px;
+}
+
+.rounded-t-l-75 {
+    border-top-left-radius: 75px;
+}
+.rounded-t-r-75 {
+    border-top-right-radius:75px;
+}
+.rounded-b-l-75 {
+    border-bottom-left-radius: 75px;
+}
+.rounded-b-r-75 {
+    border-bottom-right-radius:75px;
+}
+
+.rounded-t-l-100 {
+    border-top-left-radius: 100px;
+}
+.rounded-t-r-100 {
+    border-top-right-radius:100px;
+}
+.rounded-b-l-100 {
+    border-bottom-left-radius: 100px;
+}
+.rounded-b-r-100 {
+    border-bottom-right-radius:100px;
+}

@@ -1,0 +1,20 @@
+.see-also-links {
+    position: sticky;
+    top: 240px;
+    height: max-content;
+    @include desktop-large {
+        top: 200px;
+    }
+    
+    .box {
+        background-color: var(--white);
+        width: 100%;
+        padding: 30px;
+        @include desktop-large {
+            padding:25px;
+        }
+        @include desktop-small {
+            padding: 20px;
+        }
+    }
+}

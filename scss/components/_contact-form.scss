@@ -1,0 +1,210 @@
+.cf {
+    // max-width: 490px;
+    width: 100%;
+    @include tablet-small {
+        max-width: 100%;
+    }
+    &-full {
+        width: 100%;
+    }
+    &-half {
+        width: calc(50% - 10px);
+    }
+    ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: var(--graphite);
+        font-family: var(--ff-regular);
+        font-size: 16px;
+        @include desktop-large {
+            font-size: 14px;
+        }
+        @include desktop-small {
+            font-size: 12px;
+        }
+        @include tablet-small {
+            font-size: 14px;
+        }
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        color: var(--graphite);
+        font-family: var(--ff-regular);
+        font-size: 16px;
+        @include desktop-large {
+            font-size: 14px;
+        }
+        @include desktop-small {
+            font-size: 12px;
+        }
+        @include tablet-small {
+            font-size: 14px;
+        }
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        color: var(--graphite);
+        font-family: var(--ff-regular);
+        font-size: 16px;
+        @include desktop-large {
+            font-size: 14px;
+        }
+        @include desktop-small {
+            font-size: 12px;
+        }
+        @include tablet-small {
+            font-size: 14px;
+        }
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        color: var(--graphite);
+        font-family: var(--ff-regular);
+        font-size: 16px;
+        @include desktop-large {
+            font-size: 14px;
+        }
+        @include desktop-small {
+            font-size: 12px;
+        }
+        @include tablet-small {
+            font-size: 14px;
+        }
+    }
+    textarea:-moz-placeholder, /* Firefox 18- */
+    textarea::-moz-placeholder, /* Firefox 19+ */
+    textarea:-ms-input-placeholder, /* IE 10+ */
+    textarea::-webkit-input-placeholder, /* Webkit based */
+    textarea::placeholder { /* Modern browsers */
+        color: var(--graphite);
+        font-family: var(--ff-regular);
+        font-size: 16px;
+        @include desktop-large {
+            font-size: 14px;
+        }
+        @include desktop-small {
+            font-size: 12px;
+        }
+        @include tablet-small {
+            font-size: 14px;
+        }
+    }
+    textarea::placeholder {
+        color: var(--graphite);
+        font-family: var(--ff-regular);
+        font-size: 16px;
+        @include desktop-large {
+            font-size: 14px;
+        }
+        @include desktop-small {
+            font-size: 12px;
+        }
+        @include tablet-small {
+            font-size: 14px;
+        }
+    }
+    &-input {
+        // width: 100%;
+        label {
+            color: var(--graphite);
+        }
+        span {
+            width: 100%;
+            input {
+                width: 100%;
+                @include h-input;
+                // @include rounded-10;
+                border: none;
+                border-bottom: 2px solid var(--grey-3);
+                background: var(--grey-1);
+                padding-left: 10px;
+                border-radius:0;
+            }
+        }
+    }
+    &-textarea {
+        width: 100%;
+        label {
+            color: var(--graphite);
+        }
+        span {
+            width: 100%;
+            textarea {
+                width: 100%;
+                height: 100px;
+                border: none;
+                border-bottom: 2px solid var(--grey-3);
+                background: var(--grey-1);
+                padding: 10px 10px 0 10px;
+                border-radius:0;
+                @include desktop-small {
+                    height: 70px;
+                }
+                @include tablet-small {
+                    height: 90px;
+                }
+            }
+        }
+    }
+    &-acceptance {
+        padding-left: 40px;
+        // max-width: 435px;
+        @include desktop-large {
+            // max-width: 380px;
+        }
+        @include desktop-small {
+            // max-width: 335px;
+        }
+        @include tablet-small {
+            padding-left: 40px;
+        }
+        input#cf-acceptance {
+            position:absolute;
+            margin:0;
+            left:0;
+            top: 0px;
+            opacity:0;
+            width: 23px;
+            height: 23px;
+        }
+        a {
+            font-family: var(--ff-600);
+            color: var(--orange);
+            &:hover {
+                color: var(--green);
+            }
+        }
+    }
+    &-submit {
+        max-width: max-content;
+        .btn.btn-orange {
+            max-width: max-content;
+        }
+        .cf-submit-input {
+            opacity:0;
+            width: 290px;
+            @include h-Button;
+            position: absolute;
+            left:0;
+            top:0;
+            z-index: 2;
+            cursor: pointer;
+        }
+        &:hover {
+            .btn.btn-orange{
+                &:after {
+                    height: 110%;
+                }
+                span.informations {
+                    span.text {
+                        color: var(--white);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.screen-reader-response,
+span.wpcf7-not-valid-tip {
+    display:none !important;
+}
+.wpcf7-not-valid {
+    border: 1px solid red !important;
+}
+

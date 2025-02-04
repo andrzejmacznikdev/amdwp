@@ -1,0 +1,29 @@
+.btn {
+    @include h-Button;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    cursor:pointer;
+}
+
+.btn-simple {
+    padding: 0 15px 0 0;
+    height: 26px;
+    line-height: 26px;
+    display:flex;
+    align-items:center;
+    @include p-rel;
+    width: max-content;
+    span.text {
+
+    }
+    span.icon {
+        @include p-abs;
+        top:50%;
+        right:0;
+        display:flex;
+        transform: translateY(-50%);    
+    }
+}

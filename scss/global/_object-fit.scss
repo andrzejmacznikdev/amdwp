@@ -1,0 +1,89 @@
+.object-contain {
+    object-fit: contain;
+}
+.object-cover {
+    object-fit:cover;
+}
+.object-fill {
+    object-fit: fill;
+}
+// desktop-large
+    .lg-object-contain {
+        @include desktop-large {
+            object-fit: contain;
+        }
+    }
+    .lg-object-cover {
+        @include desktop-large {
+            object-fit: cover;   
+        }
+    }
+    .lg-object-fill {
+        @include desktop-large {
+            object-fit: fill;   
+        }
+    }
+// desktop-small
+    .ds-sm-object-contain {
+        @include desktop-small {
+            object-fit: contain;
+        }
+    }
+    .ds-sm-object-cover {
+        @include desktop-small {
+            object-fit: cover;   
+        }
+    }
+    .ds-sm-object-fill {
+        @include desktop-small {
+            object-fit: fill;   
+        }
+    }
+// tablet-large
+    .t-lg-object-contain {
+        @include tablet-large {
+            object-fit: contain;
+        }
+    }
+    .t-lg-object-cover {
+        @include tablet-large {
+            object-fit: cover;
+        }
+    }
+    .t-lg-object-fill {
+        @include tablet-large {
+            object-fit: fill;
+        }
+    }
+// tablet-medium
+    .md-object-contain {
+        @include tablet-medium {
+            object-fit: contain;
+        }
+    }
+    .md-object-cover {
+        @include tablet-medium {
+            object-fit: cover;
+        }
+    }
+    .md-object-fill {
+        @include tablet-medium {
+            object-fit: fill;
+        }
+    }
+// tablet-small
+    .sm-object-contain {
+        @include tablet-small {
+            object-fit: contain;
+        }
+    }
+    .sm-object-cover {
+        @include tablet-small {
+            object-fit: cover;
+        }
+    }
+    .sm-object-fill {
+        @include tablet-small {
+            object-fit: fill;
+        }
+    }

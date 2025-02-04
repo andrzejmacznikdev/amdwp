@@ -1,0 +1,11 @@
+.offer-box {
+    width: 100%;
+    padding: 20px 20px 75px 20px;
+    
+    .btn-simple {
+        @include p-abs;
+        left: 20px;
+        bottom: 20px;
+
+    }
+}

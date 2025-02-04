@@ -1,0 +1,87 @@
+.tt-up {
+    text-transform: uppercase;
+}
+.ta-c {
+    text-align: center;
+}
+.ta-r {
+    text-align: right;
+}
+.ta-l {
+    text-align: left;
+}
+.lg-ta-c {
+    @include desktop-large {
+        text-align: center;
+    }
+}
+.lg-ta-l {
+    @include desktop-large {
+        text-align: left;
+    }
+}
+.lg-ta-r {
+    @include desktop-large {
+        text-align: right;
+    }
+}
+.ds-sm-ta-c {
+    @include desktop-small {
+        text-align: center;
+    }
+}
+.ds-sm-ta-l {
+    @include desktop-small {
+        text-align: left;
+    }
+}
+.ds-sm-ta-r {
+    @include desktop-small {
+        text-align: right;
+    }
+}
+.t-lg-ta-c {
+    @include tablet-large {
+        text-align: center;
+    }
+}
+.t-lg-ta-l {
+    @include tablet-large {
+        text-align: left;
+    }
+}
+.t-lg-ta-r {
+    @include tablet-large {
+        text-align: right;
+    }
+}
+.md-ta-c {
+    @include tablet-medium {
+        text-align: center;
+    }
+}
+.md-ta-l {
+    @include tablet-medium {
+        text-align: left;
+    }
+}
+.md-ta-r {
+    @include tablet-medium {
+        text-align: right;
+    }
+}
+.sm-ta-c {
+    @include tablet-small {
+        text-align: center;
+    }
+}
+.sm-ta-l {
+    @include tablet-small {
+        text-align: left;
+    }
+}
+.sm-ta-r {
+    @include tablet-small {
+        text-align: right;
+    }
+}

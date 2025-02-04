@@ -1,0 +1,30 @@
+.s-social-proof-six-icons {
+    .box {
+        width: calc(16.66% - 16.66px);
+        @include desktop-large {
+            width: calc(16.66% - 12.66px);
+        }
+        @include tablet-medium {
+            width: calc(33.33% - 10.33px);
+        }
+        @include tablet-small {
+            width: calc(50% - 5px);
+        }
+        &-content {
+            width: 293px;
+            @include desktop-small {
+                width: 250px;
+            }
+            @include tablet-small {
+                // width: 245px;
+                width: 100%;
+            }
+            .icon {
+                max-width: 75px;
+                @include desktop-small {
+                    max-width: 70px;
+                }
+            }
+        }
+    }
+}

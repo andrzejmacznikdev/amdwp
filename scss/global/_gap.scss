@@ -1,0 +1,2064 @@
+// x-large and global
+.gap-5 {
+    gap:5px;
+}
+.gap-6 {
+    gap: 6px;
+}
+.gap-10 {
+    gap:10px;
+}
+.gap-12 {
+    gap: 12px;
+}
+.gap-15 {
+    gap:15px;
+}
+.gap-16 {
+    gap:16px;
+}
+.gap-18 {
+    gap: 18px;
+}
+.gap-20 {
+    gap:20px;
+    @include desktop-large {
+        gap:15px;
+    }
+    @include tablet-small {
+        gap:10px;
+    }
+}
+.gap-25 {
+    gap: 25px;
+    @include desktop-large {
+        gap:20px;
+    }
+    @include desktop-small {
+        gap: 15px;
+    }
+    @include tablet-small {
+        gap:15px;
+    }
+}
+.gap-30 {
+    gap: 30px;
+    @include desktop-large {
+        gap: 25px;
+    }
+    @include desktop-small {
+        gap: 20px;
+    }
+    @include tablet-small {
+        gap: 20px;
+    }
+}
+.gap-32 {
+    gap: 32px;
+    @include tablet-small {
+        gap: 16px;
+    }
+}
+.gap-35 {
+    gap: 35px;
+}
+.gap-40 {
+    gap: 40px;
+}
+.gap-45 {
+    gap: 45px;
+}
+.gap-50 {
+    gap: 50px;
+    @include desktop-large {
+        gap: 40px;
+    }
+    @include desktop-small {
+        gap: 30px;
+    }
+    @include tablet-small {
+        gap: 20px;
+    }
+}
+.gap-55 {
+    gap: 55px;
+}
+.gap-60 {
+    gap: 60px;
+}
+.gap-64 {
+    gap: 64px;
+}
+.gap-65 {
+    gap: 65px;
+}
+.gap-70 {
+    gap: 70px;
+}
+.gap-75 {
+    gap: 75px;
+}
+.gap-80 {
+    gap: 80px;
+}
+.gap-85 {
+    gap: 85px;
+}
+.gap-90 {
+    gap: 90px;
+}
+.gap-95 {
+    gap: 95px;
+}
+.gap-100 {
+    gap: 100px;
+}
+
+// row gap
+.gap-y-5 {
+    row-gap: 5px;
+}
+.gap-y-6 {
+    row-gap: 6px;
+}
+.gap-y-10 {
+    row-gap: 10px;
+}
+.gap-y-12 {
+    row-gap: 12px;
+}
+.gap-y-15 {
+    row-gap: 15px;
+}
+.gap-y-16 {
+    row-gap: 16px;
+}
+.gap-y-18 {
+    row-gap: 18px;
+}
+.gap-y-20 {
+    row-gap: 15px;
+}
+.gap-y-25 {
+    row-gap: 25px;
+}
+.gap-y-30 {
+    row-gap: 30px;
+}
+.gap-y-32 {
+    row-gap:32px;
+    @include tablet-small {
+        row-gap: 16px;
+    }
+}
+.gap-y-35 {
+    row-gap: 35px;
+}
+.gap-y-40 {
+    row-gap: 35px;
+}
+.gap-y-45 {
+    row-gap: 45px;
+}
+.gap-y-50 {
+    row-gap: 50px;
+    @include desktop-large {
+        row-gap: 40px;
+    }
+    @include desktop-small {
+        row-gap: 30px;
+    }
+    @include tablet-small {
+        row-gap: 20px;
+    }
+}
+.gap-y-55 {
+    row-gap: 55px;
+}
+.gap-y-60 {
+    row-gap: 60px;
+}
+.gap-y-64 {
+    row-gap: 64px;
+}
+.gap-y-65 {
+    row-gap: 65px;
+}
+.gap-y-70 {
+    row-gap: 70px;
+}
+.gap-y-75 {
+    row-gap: 75px;
+}
+.gap-y-80 {
+    row-gap: 80px;
+}
+.gap-y-85 {
+    row-gap: 85px;
+}
+.gap-y-90 {
+    row-gap: 90px;
+}
+.gap-y-95 {
+    row-gap: 95px;
+}
+.gap-y-100 {
+    row-gap: 100px;
+}
+// column gap
+.gap-x-5 {
+    column-gap: 5px;
+}
+.gap-x-6 {
+    column-gap: 6px;
+}
+.gap-x-10 {
+    column-gap: 10px;
+}
+.gap-x-12 {
+    column-gap: 12px;
+}
+.gap-x-15 {
+    column-gap: 15px;
+}
+.gap-x-16 {
+    column-gap: 16px;
+}
+.gap-x-18 {
+    column-gap: 18px;
+}
+.gap-x-20 {
+    column-gap: 20px;
+}
+.gap-x-25 {
+    column-gap: 25px;
+}
+.gap-x-30 {
+    column-gap: 30px;
+}
+.gap-x-32 {
+    column-gap:32px;
+    @include tablet-small {
+        column-gap: 16px;
+    }
+}
+.gap-x-35 {
+    column-gap: 35px;
+}
+.gap-x-40 {
+    column-gap: 35px;
+}
+.gap-x-45 {
+    column-gap: 45px;
+}
+.gap-x-50 {
+    column-gap: 50px;
+}
+.gap-x-55 {
+    column-gap: 55px;
+}
+.gap-x-60 {
+    column-gap: 60px;
+}
+.gap-x-64 {
+    column-gap: 64px;
+}
+.gap-x-65 {
+    column-gap: 65px;
+}
+.gap-x-70 {
+    column-gap: 70px;
+}
+.gap-x-75 {
+    column-gap: 75px;
+}
+.gap-x-80 {
+    column-gap: 80px;
+}
+.gap-x-85 {
+    column-gap: 85px;
+}
+.gap-x-90 {
+    column-gap: 90px;
+}
+.gap-x-95 {
+    column-gap: 95px;
+}
+.gap-x-100 {
+    column-gap: 100px;
+}
+
+// large
+.lg-gap-5 {
+    @include desktop-large {
+        gap: 5px;
+    }
+}
+.lg-gap-6 {
+    @include desktop-large {
+        gap: 6px;
+    }
+}
+.lg-gap-10 {
+    @include desktop-large {
+        gap: 10px;
+    }
+}
+.lg-gap-12 {
+    @include desktop-large {
+        gap: 12px;
+    }
+}
+.lg-gap-15 {
+    @include desktop-large {
+        gap: 15px;
+    }
+}
+.lg-gap-20 {
+    @include desktop-large {
+        gap: 20px;
+    }
+}
+.lg-gap-25 {
+    @include desktop-large {
+        gap: 25px;
+    }
+}
+.lg-gap-30 {
+    @include desktop-large {
+        gap: 30px;
+    }
+}
+.lg-gap-32 {
+    @include desktop-large {
+        gap: 32px;
+    }
+}
+.lg-gap-35 {
+    @include desktop-large {
+        gap: 35px;
+    }
+}
+.lg-gap-40 {
+    @include desktop-large {
+        gap: 40px;
+    }
+}
+.lg-gap-45 {
+    @include desktop-large {
+        gap: 45px;
+    }
+}
+.lg-gap-50 {
+    @include desktop-large {
+        gap: 50px;
+    }
+}
+.lg-gap-55 {
+    @include desktop-large {
+        gap: 55px;
+    }
+}
+.lg-gap-60 {
+    @include desktop-large {
+        gap: 60px;
+    }
+}
+.lg-gap-64 {
+    @include desktop-large {
+        gap: 64px;
+    }
+}
+.lg-gap-65 {
+    @include desktop-large {
+        gap: 65px;
+    }
+}
+.lg-gap-70 {
+    @include desktop-large {
+        gap: 70px;
+    }
+}
+.lg-gap-75 {
+    @include desktop-large {
+        gap: 75px;
+    }
+}
+.lg-gap-80 {
+    @include desktop-large {
+        gap: 80px;
+    }
+}
+.lg-gap-85 {
+    @include desktop-large {
+        gap: 85px;
+    }
+}
+.lg-gap-90 {
+    @include desktop-large {
+        gap: 90px;
+    }
+}
+.lg-gap-95 {
+    @include desktop-large {
+        gap: 95px;
+    }
+}
+.lg-gap-100 {
+    @include desktop-large {
+        gap: 100px;
+    }
+}
+
+// row large
+.lg-gap-y-5 {
+    @include desktop-large {
+        row-gap: 5px;
+    }
+}
+.lg-gap-y-6 {
+    @include desktop-large {
+        row-gap: 6px;
+    }
+}
+.lg-gap-y-10 {
+    @include desktop-large {
+        row-gap: 10px;
+    }
+}
+.lg-gap-y-12 {
+    @include desktop-large {
+        row-gap: 12px;
+    }
+}
+.lg-gap-y-15 {
+    @include desktop-large {
+        row-gap: 15px;
+    }
+}
+.lg-gap-y-20 {
+    @include desktop-large {
+        row-gap: 20px;
+    }
+}
+.lg-gap-y-25 {
+    @include desktop-large {
+        row-gap: 25px;
+    }
+}
+.lg-gap-y-30 {
+    @include desktop-large {
+        row-gap: 30px;
+    }
+}
+.lg-gap-y-35 {
+    @include desktop-large {
+        row-gap: 35px;
+    }
+}
+.lg-gap-y-40 {
+    @include desktop-large {
+        row-gap: 40px;
+    }
+}
+.lg-gap-y-45 {
+    @include desktop-large {
+        row-gap: 45px;
+    }
+}
+.lg-gap-y-50 {
+    @include desktop-large {
+        row-gap: 50px;
+    }
+}
+.lg-gap-y-55 {
+    @include desktop-large {
+        row-gap: 55px;
+    }
+}
+.lg-gap-y-60 {
+    @include desktop-large {
+        row-gap: 60px;
+    }
+}
+.lg-gap-y-64 {
+    @include desktop-large {
+        row-gap: 64px;
+    }
+}
+.lg-gap-y-65 {
+    @include desktop-large {
+        row-gap: 65px;
+    }
+}
+.lg-gap-y-70 {
+    @include desktop-large {
+        row-gap: 70px;
+    }
+}
+.lg-gap-y-75 {
+    @include desktop-large {
+        row-gap: 75px;
+    }
+}
+.lg-gap-y-80 {
+    @include desktop-large {
+        row-gap: 80px;
+    }
+}
+.lg-gap-y-85 {
+    @include desktop-large {
+        row-gap: 85px;
+    }
+}
+.lg-gap-y-90 {
+    @include desktop-large {
+        row-gap: 90px;
+    }
+}
+.lg-gap-y-95 {
+    @include desktop-large {
+        row-gap: 95px;
+    }
+}
+.lg-gap-y-100 {
+    @include desktop-large {
+        row-gap: 100px;
+    }
+}
+// column large
+.lg-gap-x-5 {
+    @include desktop-large {
+        column-gap: 5px;
+    }
+}
+.lg-gap-x-6 {
+    @include desktop-large {
+        column-gap: 6px;
+    }
+}
+.lg-gap-x-10 {
+    @include desktop-large {
+        column-gap: 10px;
+    }
+}
+.lg-gap-x-12 {
+    @include desktop-large {
+        column-gap: 12px;
+    }
+}
+.lg-gap-x-15 {
+    @include desktop-large {
+        column-gap: 15px;
+    }
+}
+.lg-gap-x-20 {
+    @include desktop-large {
+        column-gap: 20px;
+    }
+}
+.lg-gap-x-25 {
+    @include desktop-large {
+        column-gap: 25px;
+    }
+}
+.lg-gap-x-30 {
+    @include desktop-large {
+        column-gap: 30px;
+    }
+}
+.lg-gap-x-35 {
+    @include desktop-large {
+        column-gap: 35px;
+    }
+}
+.lg-gap-x-40 {
+    @include desktop-large {
+        column-gap: 40px;
+    }
+}
+.lg-gap-x-45 {
+    @include desktop-large {
+        column-gap: 45px;
+    }
+}
+.lg-gap-x-50 {
+    @include desktop-large {
+        column-gap: 50px;
+    }
+}
+.lg-gap-x-55 {
+    @include desktop-large {
+        column-gap: 55px;
+    }
+}
+.lg-gap-x-60 {
+    @include desktop-large {
+        column-gap: 60px;
+    }
+}
+.lg-gap-x-64 {
+    @include desktop-large {
+        column-gap: 64px;
+    }
+}
+.lg-gap-x-65 {
+    @include desktop-large {
+        column-gap: 65px;
+    }
+}
+.lg-gap-x-70 {
+    @include desktop-large {
+        column-gap: 70px;
+    }
+}
+.lg-gap-x-75 {
+    @include desktop-large {
+        column-gap: 75px;
+    }
+}
+.lg-gap-x-80 {
+    @include desktop-large {
+        column-gap: 80px;
+    }
+}
+.lg-gap-x-85 {
+    @include desktop-large {
+        column-gap: 85px;
+    }
+}
+.lg-gap-x-90 {
+    @include desktop-large {
+        column-gap: 90px;
+    }
+}
+.lg-gap-x-95 {
+    @include desktop-large {
+        column-gap: 95px;
+    }
+}
+.lg-gap-x-100 {
+    @include desktop-large {
+        column-gap: 100px;
+    }
+}
+// desktop-small
+.ds-sm-gap-5 {
+    @include desktop-small {
+        gap: 5px;
+    }
+}
+.ds-sm-gap-6 {
+    @include desktop-small {
+        gap: 6px;
+    }
+}
+.ds-sm-gap-10 {
+    @include desktop-small {
+        gap: 10px;
+    }
+}
+.ds-sm-gap-12 {
+    @include desktop-small {
+        gap: 12px;
+    }
+}
+.ds-sm-gap-15 {
+    @include desktop-small {
+        gap: 15px;
+    }
+}
+.ds-sm-gap-20 {
+    @include desktop-small {
+        gap: 20px;
+    }
+}
+.ds-sm-gap-25 {
+    @include desktop-small {
+        gap: 25px;
+    }
+}
+.ds-sm-gap-30 {
+    @include desktop-small {
+        gap: 30px;
+    }
+}
+.ds-sm-gap-32 {
+    @include desktop-small {
+        gap: 32px;
+    }
+}
+.ds-sm-gap-35 {
+    @include desktop-small {
+        gap: 35px;
+    }
+}
+.ds-sm-gap-40 {
+    @include desktop-small {
+        gap: 40px;
+    }
+}
+.ds-sm-gap-45 {
+    @include desktop-small {
+        gap: 45px;
+    }
+}
+.ds-sm-gap-50 {
+    @include desktop-small {
+        gap: 50px;
+    }
+}
+.ds-sm-gap-55 {
+    @include desktop-small {
+        gap: 55px;
+    }
+}
+.ds-sm-gap-60 {
+    @include desktop-small {
+        gap: 60px;
+    }
+}
+.ds-sm-gap-64 {
+    @include desktop-small {
+        gap: 64px;
+    }
+}
+.ds-sm-gap-65 {
+    @include desktop-small {
+        gap: 65px;
+    }
+}
+.ds-sm-gap-70 {
+    @include desktop-small {
+        gap: 70px;
+    }
+}
+.ds-sm-gap-75 {
+    @include desktop-small {
+        gap: 75px;
+    }
+}
+.ds-sm-gap-80 {
+    @include desktop-small {
+        gap: 80px;
+    }
+}
+.ds-sm-gap-85 {
+    @include desktop-small {
+        gap: 85px;
+    }
+}
+.ds-sm-gap-90 {
+    @include desktop-small {
+        gap: 90px;
+    }
+}
+.ds-sm-gap-95 {
+    @include desktop-small {
+        gap: 95px;
+    }
+}
+.ds-sm-gap-100 {
+    @include desktop-small {
+        gap: 100px;
+    }
+}
+// row desktop-small
+.ds-sm-gap-y-5 {
+    @include desktop-small {
+        row-gap: 5px;
+    }
+}
+.ds-sm-gap-y-6 {
+    @include desktop-small {
+        row-gap: 6px;
+    }
+}
+.ds-sm-gap-y-10 {
+    @include desktop-small {
+        row-gap: 10px;
+    }
+}
+.ds-sm-gap-y-12 {
+    @include desktop-small {
+        row-gap: 12px;
+    }
+}
+.ds-sm-gap-y-15 {
+    @include desktop-small {
+        row-gap: 15px;
+    }
+}
+.ds-sm-gap-y-20 {
+    @include desktop-small {
+        row-gap: 20px;
+    }
+}
+.ds-sm-gap-y-25 {
+    @include desktop-small {
+        row-gap: 25px;
+    }
+}
+.ds-sm-gap-y-30 {
+    @include desktop-small {
+        row-gap: 30px;
+    }
+}
+.ds-sm-gap-y-35 {
+    @include desktop-small {
+        row-gap: 35px;
+    }
+}
+.ds-sm-gap-y-40 {
+    @include desktop-small {
+        row-gap: 40px;
+    }
+}
+.ds-sm-gap-y-45 {
+    @include desktop-small {
+        row-gap: 45px;
+    }
+}
+.ds-sm-gap-y-50 {
+    @include desktop-small {
+        row-gap: 50px;
+    }
+}
+.ds-sm-gap-y-55 {
+    @include desktop-small {
+        row-gap: 55px;
+    }
+}
+.ds-sm-gap-y-60 {
+    @include desktop-small {
+        row-gap: 60px;
+    }
+}
+.ds-sm-gap-y-64 {
+    @include desktop-small {
+        row-gap: 64px;
+    }
+}
+.ds-sm-gap-y-65 {
+    @include desktop-small {
+        row-gap: 65px;
+    }
+}
+.ds-sm-gap-y-70 {
+    @include desktop-small {
+        row-gap: 70px;
+    }
+}
+.ds-sm-gap-y-75 {
+    @include desktop-small {
+        row-gap: 75px;
+    }
+}
+.ds-sm-gap-y-80 {
+    @include desktop-small {
+        row-gap: 80px;
+    }
+}
+.ds-sm-gap-y-85 {
+    @include desktop-small {
+        row-gap: 85px;
+    }
+}
+.ds-sm-gap-y-90 {
+    @include desktop-small {
+        row-gap: 90px;
+    }
+}
+.ds-sm-gap-y-95 {
+    @include desktop-small {
+        row-gap: 95px;
+    }
+}
+.ds-sm-gap-y-100 {
+    @include desktop-small {
+        row-gap: 100px;
+    }
+}
+// column desktop-small
+.ds-sm-gap-x-5 {
+    @include desktop-large {
+        column-gap: 5px;
+    }
+}
+.ds-sm-gap-x-6 {
+    @include desktop-large {
+        column-gap: 6px;
+    }
+}
+.ds-sm-gap-x-10 {
+    @include desktop-large {
+        column-gap: 10px;
+    }
+}
+.ds-sm-gap-x-12 {
+    @include desktop-large {
+        column-gap: 12px;
+    }
+}
+.ds-sm-gap-x-15 {
+    @include desktop-large {
+        column-gap: 15px;
+    }
+}
+.ds-sm-gap-x-20 {
+    @include desktop-large {
+        column-gap: 20px;
+    }
+}
+.lg-gap-x-25 {
+    @include desktop-large {
+        column-gap: 25px;
+    }
+}
+.ds-sm-gap-x-30 {
+    @include desktop-large {
+        column-gap: 30px;
+    }
+}
+.ds-sm-gap-x-35 {
+    @include desktop-large {
+        column-gap: 35px;
+    }
+}
+.ds-sm-gap-x-40 {
+    @include desktop-large {
+        column-gap: 40px;
+    }
+}
+.ds-sm-gap-x-45 {
+    @include desktop-large {
+        column-gap: 45px;
+    }
+}
+.ds-sm-gap-x-50 {
+    @include desktop-large {
+        column-gap: 50px;
+    }
+}
+.ds-sm-gap-x-55 {
+    @include desktop-large {
+        column-gap: 55px;
+    }
+}
+.ds-sm-gap-x-60 {
+    @include desktop-large {
+        column-gap: 60px;
+    }
+}
+.ds-sm-gap-x-64 {
+    @include desktop-large {
+        column-gap: 64px;
+    }
+}
+.ds-sm-gap-x-65 {
+    @include desktop-large {
+        column-gap: 65px;
+    }
+}
+.ds-sm-gap-x-70 {
+    @include desktop-large {
+        column-gap: 70px;
+    }
+}
+.ds-sm-gap-x-75 {
+    @include desktop-large {
+        column-gap: 75px;
+    }
+}
+.ds-sm-gap-x-80 {
+    @include desktop-large {
+        column-gap: 80px;
+    }
+}
+.ds-sm-gap-x-85 {
+    @include desktop-large {
+        column-gap: 85px;
+    }
+}
+.ds-sm-gap-x-90 {
+    @include desktop-large {
+        column-gap: 90px;
+    }
+}
+.ds-sm-gap-x-95 {
+    @include desktop-large {
+        column-gap: 95px;
+    }
+}
+.ds-sm-gap-x-100 {
+    @include desktop-large {
+        column-gap: 100px;
+    }
+}
+
+//  TABLET LARGE
+    .t-lg-gap-5 {
+        @include tablet-large {
+            gap: 5px;
+        }
+    }
+    .t-lg-gap-6 {
+        @include tablet-large {
+            gap: 6px;
+        }
+    }
+    .t-lg-gap-10 {
+        @include tablet-large {
+            gap: 10px;
+        }
+    }
+    .t-lg-gap-12 {
+        @include tablet-large {
+            gap: 12px;
+        }
+    }
+    .t-lg-gap-15 {
+        @include tablet-large {
+            gap: 15px;
+        }
+    }
+    .t-lg-gap-20 {
+        @include tablet-large {
+            gap: 20px;
+        }
+    }
+    .t-lg-gap-25 {
+        @include tablet-large {
+            gap: 25px;
+        }
+    }
+    .t-lg-gap-30 {
+        @include tablet-large {
+            gap: 30px;
+        }
+    }
+    .t-lg-gap-32 {
+        @include tablet-large {
+            gap: 32px;
+        }
+    }
+    .t-lg-gap-35 {
+        @include tablet-large {
+            gap: 35px;
+        }
+    }
+    .t-lg-gap-40 {
+        @include tablet-large {
+            gap: 40px;
+        }
+    }
+    .t-lg-gap-45 {
+        @include tablet-large {
+            gap: 45px;
+        }
+    }
+    .t-lg-gap-50 {
+        @include tablet-large {
+            gap: 50px;
+        }
+    }
+    .t-lg-gap-55 {
+        @include tablet-large {
+            gap: 55px;
+        }
+    }
+    .t-lg-gap-60 {
+        @include tablet-large {
+            gap: 60px;
+        }
+    }
+    .t-lg-gap-64 {
+        @include tablet-large {
+            gap: 64px;
+        }
+    }
+    .t-lg-gap-65 {
+        @include tablet-large {
+            gap: 65px;
+        }
+    }
+    .t-lg-gap-70 {
+        @include tablet-large {
+            gap: 70px;
+        }
+    }
+    .t-lg-gap-75 {
+        @include tablet-large {
+            gap: 75px;
+        }
+    }
+    .t-lg-gap-80 {
+        @include tablet-large {
+            gap: 80px;
+        }
+    }
+    .t-lg-gap-85 {
+        @include tablet-large {
+            gap: 85px;
+        }
+    }
+    .t-lg-gap-90 {
+        @include tablet-large {
+            gap: 90px;
+        }
+    }
+    .t-lg-gap-95 {
+        @include tablet-large {
+            gap: 95px;
+        }
+    }
+    .t-lg-gap-100 {
+        @include tablet-large {
+            gap: 100px;
+        }
+    }
+
+    .t-lg-gap-y-5 {
+        @include tablet-large {
+            row-gap: 5px;
+        }
+    }
+    .t-lg-gap-y-6 {
+        @include tablet-large {
+            row-gap: 6px;
+        }
+    }
+    .t-lg-gap-y-10 {
+        @include tablet-large {
+            row-gap: 10px;
+        }
+    }
+    .t-lg-gap-y-12 {
+        @include tablet-large {
+            row-gap: 12px;
+        }
+    }
+    .t-lg-gap-y-15 {
+        @include tablet-large {
+            row-gap: 15px;
+        }
+    }
+    .t-lg-gap-y-20 {
+        @include tablet-large {
+            row-gap: 20px;
+        }
+    }
+    .t-lg-gap-y-25 {
+        @include tablet-large {
+            row-gap: 25px;
+        }
+    }
+    .t-lg-gap-y-30 {
+        @include tablet-large {
+            row-gap: 30px;
+        }
+    }
+    .t-lg-gap-y-35 {
+        @include tablet-large {
+            row-gap: 35px;
+        }
+    }
+    .t-lg-gap-y-40 {
+        @include tablet-large {
+            row-gap: 40px;
+        }
+    }
+    .t-lg-gap-y-45 {
+        @include tablet-large {
+            row-gap: 45px;
+        }
+    }
+    .t-lg-gap-y-50 {
+        @include tablet-large {
+            row-gap: 50px;
+        }
+    }
+    .t-lg-gap-y-55 {
+        @include tablet-large {
+            row-gap: 55px;
+        }
+    }
+    .t-lg-gap-y-60 {
+        @include tablet-large {
+            row-gap: 60px;
+        }
+    }
+    .t-lg-gap-y-64 {
+        @include tablet-large {
+            row-gap: 64px;
+        }
+    }
+    .t-lg-gap-y-65 {
+        @include tablet-large {
+            row-gap: 65px;
+        }
+    }
+    .t-lg-gap-y-70 {
+        @include tablet-large {
+            row-gap: 70px;
+        }
+    }
+    .t-lg-gap-y-75 {
+        @include tablet-large {
+            row-gap: 75px;
+        }
+    }
+    .t-lg-gap-y-80 {
+        @include tablet-large {
+            row-gap: 80px;
+        }
+    }
+    .t-lg-gap-y-85 {
+        @include tablet-large {
+            row-gap: 85px;
+        }
+    }
+    .t-lg-gap-y-90 {
+        @include tablet-large {
+            row-gap: 90px;
+        }
+    }
+    .t-lg-gap-y-95 {
+        @include tablet-large {
+            row-gap: 95px;
+        }
+    }
+    .t-lg-gap-y-100 {
+        @include tablet-large {
+            row-gap: 100px;
+        }
+    }
+
+    .t-lg-gap-x-5 {
+        @include tablet-large {
+            column-gap: 5px;
+        }
+    }
+    .t-lg-gap-x-6 {
+        @include tablet-large {
+            column-gap: 6px;
+        }
+    }
+    .t-lg-gap-x-10 {
+        @include tablet-large {
+            column-gap: 10px;
+        }
+    }
+    .t-lg-gap-x-12 {
+        @include tablet-large {
+            column-gap: 12px;
+        }
+    }
+    .t-lg-gap-x-15 {
+        @include tablet-large {
+            column-gap: 15px;
+        }
+    }
+    .t-lg-gap-x-20 {
+        @include tablet-large {
+            column-gap: 20px;
+        }
+    }
+    .t-lg-gap-x-25 {
+        @include tablet-large {
+            column-gap: 25px;
+        }
+    }
+    .t-lg-gap-x-30 {
+        @include tablet-large {
+            column-gap: 30px;
+        }
+    }
+    .t-lg-gap-x-35 {
+        @include tablet-large {
+            column-gap: 35px;
+        }
+    }
+    .t-lg-gap-x-40 {
+        @include tablet-large {
+            column-gap: 40px;
+        }
+    }
+    .t-lg-gap-x-45 {
+        @include tablet-large {
+            column-gap: 45px;
+        }
+    }
+    .t-lg-gap-x-50 {
+        @include tablet-large {
+            column-gap: 50px;
+        }
+    }
+    .t-lg-gap-x-55 {
+        @include tablet-large {
+            column-gap: 55px;
+        }
+    }
+    .t-lg-gap-x-60 {
+        @include tablet-large {
+            column-gap: 60px;
+        }
+    }
+    .t-lg-gap-x-64 {
+        @include tablet-large {
+            column-gap: 64px;
+        }
+    }
+    .t-lg-gap-x-65 {
+        @include tablet-large {
+            column-gap: 65px;
+        }
+    }
+    .t-lg-gap-x-70 {
+        @include tablet-large {
+            column-gap: 70px;
+        }
+    }
+    .t-lg-gap-x-75 {
+        @include tablet-large {
+            column-gap: 75px;
+        }
+    }
+    .t-lg-gap-x-80 {
+        @include tablet-large {
+            column-gap: 80px;
+        }
+    }
+    .t-lg-gap-x-85 {
+        @include tablet-large {
+            column-gap: 85px;
+        }
+    }
+    .t-lg-gap-x-90 {
+        @include tablet-large {
+            column-gap: 90px;
+        }
+    }
+    .t-lg-gap-x-95 {
+        @include tablet-large {
+            column-gap: 95px;
+        }
+    }
+    .t-lg-gap-x-100 {
+        @include tablet-large {
+            column-gap: 100px;
+        }
+    }
+
+
+// tablet-medium
+    .md-gap-5 {
+        @include tablet-medium {
+            gap: 5px;
+        }
+    }
+    .md-gap-6 {
+        @include tablet-medium {
+            gap: 6px;
+        }
+    }
+    .md-gap-10 {
+        @include tablet-medium {
+            gap: 10px;
+        }
+    }
+    .md-gap-12 {
+        @include tablet-medium {
+            gap: 12px;
+        }
+    }
+    .md-gap-15 {
+        @include tablet-medium {
+            gap: 15px;
+        }
+    }
+    .md-gap-20 {
+        @include tablet-medium {
+            gap: 20px;
+        }
+    }
+    .md-gap-25 {
+        @include tablet-medium {
+            gap: 25px;
+        }
+    }
+    .md-gap-30 {
+        @include tablet-medium {
+            gap: 30px;
+        }
+    }
+    .md-gap-32 {
+        @include tablet-medium {
+            gap: 32px;
+        }
+    }
+    .md-gap-35 {
+        @include tablet-medium {
+            gap: 35px;
+        }
+    }
+    .md-gap-40 {
+        @include tablet-medium {
+            gap: 40px;
+        }
+    }
+    .md-gap-45 {
+        @include tablet-medium {
+            gap: 45px;
+        }
+    }
+    .md-gap-50 {
+        @include tablet-medium {
+            gap: 50px;
+        }
+    }
+    .md-gap-55 {
+        @include tablet-medium {
+            gap: 55px;
+        }
+    }
+    .md-gap-60 {
+        @include tablet-medium {
+            gap: 60px;
+        }
+    }
+    .md-gap-64 {
+        @include tablet-medium {
+            gap: 64px;
+        }
+    }
+    .md-gap-65 {
+        @include tablet-medium {
+            gap: 65px;
+        }
+    }
+    .md-gap-70 {
+        @include tablet-medium {
+            gap: 70px;
+        }
+    }
+    .md-gap-75 {
+        @include tablet-medium {
+            gap: 75px;
+        }
+    }
+    .md-gap-80 {
+        @include tablet-medium {
+            gap: 80px;
+        }
+    }
+    .md-gap-85 {
+        @include tablet-medium {
+            gap: 85px;
+        }
+    }
+    .md-gap-90 {
+        @include tablet-medium {
+            gap: 90px;
+        }
+    }
+    .md-gap-95 {
+        @include tablet-medium {
+            gap: 95px;
+        }
+    }
+    .md-gap-100 {
+        @include tablet-medium {
+            gap: 100px;
+        }
+    }
+// row tablet-medium
+    .md-gap-y-5 {
+        @include tablet-medium {
+            row-gap: 5px;
+        }
+    }
+    .md-gap-y-6 {
+        @include tablet-medium {
+            row-gap: 6px;
+        }
+    }
+    .md-gap-y-10 {
+        @include tablet-medium {
+            row-gap: 10px;
+        }
+    }
+    .md-gap-y-12 {
+        @include tablet-medium {
+            row-gap: 12px;
+        }
+    }
+    .md-gap-y-15 {
+        @include tablet-medium {
+            row-gap: 15px;
+        }
+    }
+    .md-gap-y-20 {
+        @include tablet-medium {
+            row-gap: 20px;
+        }
+    }
+    .md-gap-y-25 {
+        @include tablet-medium {
+            row-gap: 25px;
+        }
+    }
+    .md-gap-y-30 {
+        @include tablet-medium {
+            row-gap: 30px;
+        }
+    }
+    .md-gap-y-35 {
+        @include tablet-medium {
+            row-gap: 35px;
+        }
+    }
+    .md-gap-y-40 {
+        @include tablet-medium {
+            row-gap: 40px;
+        }
+    }
+    .md-gap-y-45 {
+        @include tablet-medium {
+            row-gap: 45px;
+        }
+    }
+    .md-gap-y-50 {
+        @include tablet-medium {
+            row-gap: 50px;
+        }
+    }
+    .md-gap-y-55 {
+        @include tablet-medium {
+            row-gap: 55px;
+        }
+    }
+    .md-gap-y-60 {
+        @include tablet-medium {
+            row-gap: 60px;
+        }
+    }
+    .md-gap-y-64 {
+        @include tablet-medium {
+            row-gap: 64px;
+        }
+    }
+    .md-gap-y-65 {
+        @include tablet-medium {
+            row-gap: 65px;
+        }
+    }
+    .md-gap-y-70 {
+        @include tablet-medium {
+            row-gap: 70px;
+        }
+    }
+    .md-gap-y-75 {
+        @include tablet-medium {
+            row-gap: 75px;
+        }
+    }
+    .md-gap-y-80 {
+        @include tablet-medium {
+            row-gap: 80px;
+        }
+    }
+    .md-gap-y-85 {
+        @include tablet-medium {
+            row-gap: 85px;
+        }
+    }
+    .md-gap-y-90 {
+        @include tablet-medium {
+            row-gap: 90px;
+        }
+    }
+    .md-gap-y-95 {
+        @include tablet-medium {
+            row-gap: 95px;
+        }
+    }
+    .md-gap-y-100 {
+        @include tablet-medium {
+            row-gap: 100px;
+        }
+    }
+// column tablet-medium
+    .md-gap-x-5 {
+        @include tablet-medium {
+            column-gap: 5px;
+        }
+    }
+    .md-gap-x-6 {
+        @include tablet-medium {
+            column-gap: 6px;
+        }
+    }
+    .md-gap-x-10 {
+        @include tablet-medium {
+            column-gap: 10px;
+        }
+    }
+    .md-gap-x-12 {
+        @include tablet-medium {
+            column-gap: 12px;
+        }
+    }
+    .md-gap-x-15 {
+        @include tablet-medium {
+            column-gap: 15px;
+        }
+    }
+    .md-gap-x-20 {
+        @include tablet-medium {
+            column-gap: 20px;
+        }
+    }
+    .md-gap-x-25 {
+        @include tablet-medium {
+            column-gap: 25px;
+        }
+    }
+    .md-gap-x-30 {
+        @include tablet-medium {
+            column-gap: 30px;
+        }
+    }
+    .md-gap-x-35 {
+        @include tablet-medium {
+            column-gap: 35px;
+        }
+    }
+    .md-gap-x-40 {
+        @include tablet-medium {
+            column-gap: 40px;
+        }
+    }
+    .md-gap-x-45 {
+        @include tablet-medium {
+            column-gap: 45px;
+        }
+    }
+    .md-gap-x-50 {
+        @include tablet-medium {
+            column-gap: 50px;
+        }
+    }
+    .md-gap-x-55 {
+        @include tablet-medium {
+            column-gap: 55px;
+        }
+    }
+    .md-gap-x-60 {
+        @include tablet-medium {
+            column-gap: 60px;
+        }
+    }
+    .md-gap-x-64 {
+        @include tablet-medium {
+            column-gap: 64px;
+        }
+    }
+    .md-gap-x-65 {
+        @include tablet-medium {
+            column-gap: 65px;
+        }
+    }
+    .md-gap-x-70 {
+        @include tablet-medium {
+            column-gap: 70px;
+        }
+    }
+    .md-gap-x-75 {
+        @include tablet-medium {
+            column-gap: 75px;
+        }
+    }
+    .md-gap-x-80 {
+        @include tablet-medium {
+            column-gap: 80px;
+        }
+    }
+    .md-gap-x-85 {
+        @include tablet-medium {
+            column-gap: 85px;
+        }
+    }
+    .md-gap-x-90 {
+        @include tablet-medium {
+            column-gap: 90px;
+        }
+    }
+    .md-gap-x-95 {
+        @include tablet-medium {
+            column-gap: 95px;
+        }
+    }
+    .md-gap-x-100 {
+        @include tablet-medium {
+            column-gap: 100px;
+        }
+    }
+// tablet-small
+    .sm-gap-0 {
+    @include tablet-small {
+        gap:0;
+    }
+    }
+    .sm-gap-5 {
+        @include tablet-small {
+            gap: 5px;
+        }
+    }
+    .sm-gap-6 {
+        @include tablet-small {
+            gap: 6px;
+        }
+    }
+    .sm-gap-10 {
+        @include tablet-small {
+            gap: 10px;
+        }
+    }
+    .sm-gap-12 {
+        @include tablet-small {
+            gap: 12px;
+        }
+    }
+    .sm-gap-15 {
+        @include tablet-small {
+            gap: 15px;
+        }
+    }
+    .sm-gap-20 {
+        @include tablet-small {
+            gap: 20px;
+        }
+    }
+    .sm-gap-25 {
+        @include tablet-small {
+            gap: 25px;
+        }
+    }
+    .sm-gap-30 {
+        @include tablet-small {
+            gap: 30px;
+        }
+    }
+    .sm-gap-32 {
+        @include tablet-small {
+            gap: 32px;
+        }
+    }
+    .sm-gap-35 {
+        @include tablet-small {
+            gap: 35px;
+        }
+    }
+    .sm-gap-40 {
+        @include tablet-small {
+            gap: 40px;
+        }
+    }
+    .sm-gap-45 {
+        @include tablet-small {
+            gap: 45px;
+        }
+    }
+    .sm-gap-50 {
+        @include tablet-small {
+            gap: 50px;
+        }
+    }
+    .sm-gap-55 {
+        @include tablet-small {
+            gap: 55px;
+        }
+    }
+    .sm-gap-60 {
+        @include tablet-small {
+            gap: 60px;
+        }
+    }
+    .sm-gap-64 {
+        @include tablet-small {
+            gap: 64px;
+        }
+    }
+    .sm-gap-65 {
+        @include tablet-small {
+            gap: 65px;
+        }
+    }
+    .sm-gap-70 {
+        @include tablet-small {
+            gap: 70px;
+        }
+    }
+    .sm-gap-75 {
+        @include tablet-small {
+            gap: 75px;
+        }
+    }
+    .sm-gap-80 {
+        @include tablet-small {
+            gap: 80px;
+        }
+    }
+    .sm-gap-85 {
+        @include tablet-small {
+            gap: 85px;
+        }
+    }
+    .sm-gap-90 {
+        @include tablet-small {
+            gap: 90px;
+        }
+    }
+    .sm-gap-95 {
+        @include tablet-small {
+            gap: 95px;
+        }
+    }
+    .sm-gap-100 {
+        @include tablet-small {
+            gap: 100px;
+        }
+    }
+// row tablet-small
+    .sm-gap-y-5 {
+        @include tablet-small {
+            row-gap: 5px;
+        }
+    }
+    .sm-gap-y-6 {
+        @include tablet-small {
+            row-gap: 6px;
+        }
+    }
+    .sm-gap-y-10 {
+        @include tablet-small {
+            row-gap: 10px;
+        }
+    }
+    .sm-gap-y-12 {
+        @include tablet-small {
+            row-gap: 12px;
+        }
+    }
+    .sm-gap-y-15 {
+        @include tablet-small {
+            row-gap: 15px;
+        }
+    }
+    .sm-gap-y-20 {
+        @include tablet-small {
+            row-gap: 20px;
+        }
+    }
+    .sm-gap-y-25 {
+        @include tablet-small {
+            row-gap: 25px;
+        }
+    }
+    .sm-gap-y-30 {
+        @include tablet-small {
+            row-gap: 30px;
+        }
+    }
+    .sm-gap-y-35 {
+        @include tablet-small {
+            row-gap: 35px;
+        }
+    }
+    .sm-gap-y-40 {
+        @include tablet-small {
+            row-gap: 40px;
+        }
+    }
+    .sm-gap-y-45 {
+        @include tablet-small {
+            row-gap: 45px;
+        }
+    }
+    .sm-gap-y-50 {
+        @include tablet-small {
+            row-gap: 50px;
+        }
+    }
+    .sm-gap-y-55 {
+        @include tablet-small {
+            row-gap: 55px;
+        }
+    }
+    .sm-gap-y-60 {
+        @include tablet-small {
+            row-gap: 60px;
+        }
+    }
+    .sm-gap-y-64 {
+        @include tablet-small {
+            row-gap: 64px;
+        }
+    }
+    .sm-gap-y-65 {
+        @include tablet-small {
+            row-gap: 65px;
+        }
+    }
+    .sm-gap-y-70 {
+        @include tablet-small {
+            row-gap: 70px;
+        }
+    }
+    .sm-gap-y-75 {
+        @include tablet-small {
+            row-gap: 75px;
+        }
+    }
+    .sm-gap-y-80 {
+        @include tablet-small {
+            row-gap: 80px;
+        }
+    }
+    .sm-gap-y-85 {
+        @include tablet-small {
+            row-gap: 85px;
+        }
+    }
+    .sm-gap-y-90 {
+        @include tablet-small {
+            row-gap: 90px;
+        }
+    }
+    .sm-gap-y-95 {
+        @include tablet-small {
+            row-gap: 95px;
+        }
+    }
+    .sm-gap-y-100 {
+        @include tablet-small {
+            row-gap: 100px;
+        }
+    }
+// column tablet-small
+    .sm-gap-x-5 {
+        @include tablet-small {
+            column-gap: 5px;
+        }
+    }
+    .sm-gap-x-6 {
+        @include tablet-small {
+            column-gap: 6px;
+        }
+    }
+    .sm-gap-x-10 {
+        @include tablet-small {
+            column-gap: 10px;
+        }
+    }
+    .sm-gap-x-12 {
+        @include tablet-small {
+            column-gap: 12px;
+        }
+    }
+    .sm-gap-x-15 {
+        @include tablet-small {
+            column-gap: 15px;
+        }
+    }
+    .sm-gap-x-20 {
+        @include tablet-small {
+            column-gap: 20px;
+        }
+    }
+    .sm-gap-x-25 {
+        @include tablet-small {
+            column-gap: 25px;
+        }
+    }
+    .sm-gap-x-30 {
+        @include tablet-small {
+            column-gap: 30px;
+        }
+    }
+    .sm-gap-x-35 {
+        @include tablet-small {
+            column-gap: 35px;
+        }
+    }
+    .sm-gap-x-40 {
+        @include tablet-small {
+            column-gap: 40px;
+        }
+    }
+    .sm-gap-x-45 {
+        @include tablet-small {
+            column-gap: 45px;
+        }
+    }
+    .sm-gap-x-50 {
+        @include tablet-small {
+            column-gap: 50px;
+        }
+    }
+    .sm-gap-x-55 {
+        @include tablet-small {
+            column-gap: 55px;
+        }
+    }
+    .sm-gap-x-60 {
+        @include tablet-small {
+            column-gap: 60px;
+        }
+    }
+    .sm-gap-x-64 {
+        @include tablet-small {
+            column-gap: 64px;
+        }
+    }
+    .sm-gap-x-65 {
+        @include tablet-small {
+            column-gap: 65px;
+        }
+    }
+    .sm-gap-x-70 {
+        @include tablet-small {
+            column-gap: 70px;
+        }
+    }
+    .sm-gap-x-75 {
+        @include tablet-small {
+            column-gap: 75px;
+        }
+    }
+    .sm-gap-x-80 {
+        @include tablet-small {
+            column-gap: 80px;
+        }
+    }
+    .sm-gap-x-85 {
+        @include tablet-small {
+            column-gap: 85px;
+        }
+    }
+    .sm-gap-x-90 {
+        @include tablet-small {
+            column-gap: 90px;
+        }
+    }
+    .sm-gap-x-95 {
+        @include tablet-small {
+            column-gap: 95px;
+        }
+    }
+    .sm-gap-x-100 {
+        @include tablet-small {
+            column-gap: 100px;
+        }
+    }

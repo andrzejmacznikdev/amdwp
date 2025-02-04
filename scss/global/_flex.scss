@@ -1,0 +1,295 @@
+// x-large global
+.flex {
+    display:flex;
+}
+.flex-row {
+    flex-direction: row;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.sm-flex-wrap {
+    @include tablet-small {
+        flex-wrap: wrap;
+    }
+}
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+.flex-col-reverse {
+    flex-direction: column-reverse;
+}
+.jc-fs {
+    justify-content: flex-start;
+}
+.jc-fe {
+    justify-content: flex-end;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-c {
+    justify-content: center;
+}
+.jc-sa {
+    justify-content: space-around;
+}
+.jc-se {
+    justify-content: space-evenly;
+}
+.ai-c {
+    align-items: center;
+}
+.ai-fs {
+    align-items: flex-start;
+}
+.ai-fe {
+    align-items: flex-end;
+}
+.ai-s {
+    align-items: stretch;
+}
+.ai-b {
+    align-items: baseline;
+}
+
+// desktop-large
+.lg-flex-row {
+    @include desktop-large {
+        flex-direction:row;
+    }
+}
+.lg-flex-col {
+    @include desktop-large {
+        flex-direction:column;
+    }
+}
+.lg-flex-col-reverse {
+    @include desktop-large {
+        flex-direction: column-reverse;
+    }
+}
+.lg-flex-row-reverse {
+    @include desktop-large {
+        flex-direction: row-reverse;
+    }
+}
+.lg-jc-c {
+    @include desktop-large {
+        justify-content: center;   
+    }
+}
+.lg-jc-sb {
+    @include desktop-large {
+        justify-content: space-between;
+    }
+}
+.lg-jc-fs {
+    @include desktop-large {
+        justify-content: flex-start;
+    }
+}
+.lg-jc-fe {
+    @include desktop-large {
+        justify-content: flex-end;   
+    }
+}
+.lg-ai-c {
+    @include desktop-large {
+        align-items: center;   
+    }
+}
+.lg-ai-fs {
+    @include desktop-large {
+        align-items: flex-start;   
+    }
+}
+.lg-ai-fe {
+    @include desktop-large {
+        align-items: flex-end;   
+    }
+}
+// desktop-small
+.ds-sm-flex-row {
+    @include desktop-small {
+        flex-direction:row;
+    }
+}
+.ds-sm-flex-col {
+    @include desktop-small {
+        flex-direction:column;
+    }
+}
+.ds-sm-flex-col-reverse {
+    @include desktop-small {
+        flex-direction: column-reverse;
+    }
+}
+.ds-sm-flex-row-reverse {
+    @include desktop-small {
+        flex-direction: row-reverse;
+    }
+}
+.ds-sm-jc-c {
+    @include desktop-small {
+        justify-content: center;   
+    }
+}
+.ds-sm-jc-sb {
+    @include desktop-small {
+        justify-content: space-between;
+    }
+}
+.ds-sm-jc-fs {
+    @include desktop-small {
+        justify-content: flex-start;
+    }
+}
+.ds-sm-jc-fe {
+    @include desktop-small {
+        justify-content: flex-end;   
+    }
+}
+.ds-sm-ai-c {
+    @include desktop-small {
+        align-items: center;   
+    }
+}
+.ds-sm-ai-fs {
+    @include desktop-small {
+        align-items: flex-start;   
+    }
+}
+.ds-sm-ai-fe {
+    @include desktop-small {
+        align-items: flex-end;   
+    }
+}
+// tablet-medium
+.md-flex-row {
+    @include tablet-medium {
+        flex-direction:row;
+    }
+}
+.md-flex-col {
+    @include tablet-medium {
+        flex-direction:column;
+    }
+}
+.md-flex-col-reverse {
+    @include tablet-medium {
+        flex-direction: column-reverse;
+    }
+}
+.md-flex-row-reverse {
+    @include tablet-medium {
+        flex-direction: row-reverse;
+    }
+}
+.md-flex-wrap {
+    @include tablet-medium {
+        flex-wrap: wrap;
+    }
+}
+.md-col-reverse {
+    @include tablet-medium {
+        flex-direction:column-reverse;
+    }
+}
+.md-jc-c {
+    @include tablet-medium {
+        justify-content: center;   
+    }
+}
+.md-jc-sb {
+    @include tablet-medium {
+        justify-content: space-between;
+    }
+}
+.md-jc-fs {
+    @include tablet-medium {
+        justify-content: flex-start;
+    }
+}
+.md-jc-fe {
+    @include tablet-medium {
+        justify-content: flex-end;   
+    }
+}
+.md-ai-c {
+    @include tablet-medium {
+        align-items: center;   
+    }
+}
+.md-ai-fs {
+    @include tablet-medium {
+        align-items: flex-start;   
+    }
+}
+.md-ai-fe {
+    @include tablet-medium {
+        align-items: flex-end;   
+    }
+}
+// tablet-small
+.sm-flex-row {
+    @include tablet-small {
+        flex-direction: row;
+    }
+}
+.sm-flex-col {
+    @include tablet-small {
+        flex-direction:column;
+    }
+}
+.sm-flex-row-reverse {
+    @include tablet-small {
+        flex-direction: row-reverse;
+    }
+}
+.sm-flex-col-reverse {
+    @include tablet-small {
+        flex-direction: column-reverse;
+    }
+}
+.sm-jc-c {
+    @include tablet-small {
+        justify-content: center;
+    }
+}
+.sm-jc-sb {
+    @include tablet-small {
+        justify-content: space-between;   
+    }
+}
+.sm-jc-fs {
+    @include tablet-small {
+        justify-content: flex-start;   
+    }
+}
+.sm-jc-fe {
+    @include tablet-small {
+        justify-content: flex-end;       
+    }
+}
+.sm-ai-c {
+    @include tablet-small {
+        align-items: center;   
+    }
+}
+.sm-ai-fe {
+    @include tablet-small {
+        align-items: flex-end;   
+    }
+}
+.sm-ai-fs {
+    @include tablet-small {
+        align-items: flex-start;   
+    }
+}
